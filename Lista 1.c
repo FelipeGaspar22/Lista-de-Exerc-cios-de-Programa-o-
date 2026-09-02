@@ -2,7 +2,7 @@
 
 /*
 
-Lista 1 - Exercício 1
+Lista 1 - Exercício: 1
 
 int main()
 {
