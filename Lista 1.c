@@ -18,3 +18,5 @@ int main()
 }
 
 */
+
+Lista 1 - Exercício: 2
