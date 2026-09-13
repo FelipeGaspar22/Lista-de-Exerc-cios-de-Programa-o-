@@ -46,6 +46,39 @@ int main()
 
 */
 
+/*
+
 lista 1 - Exercício: 3
 
+#include <stdio.h>
 
+int main()
+{
+    int n;
+    printf("Insira um número posítivo menor ou igual a 64: ");
+    scanf("%d", &n);
+
+
+    if (n <= 0|| n > 64){
+        printf("valor inválido \n");
+        return 1;
+    }
+    
+    
+    printf("Valor em binário: ");
+    
+    printf("%d", (n >> 6) & 1);
+    printf("%d", (n >> 5) & 1);
+    printf("%d", (n >> 4) & 1);
+    printf("%d", (n >> 3) & 1);
+    printf("%d", (n >> 2) & 1);
+    printf("%d", (n >> 1) & 1);
+    printf("%d", (n >> 0) & 1);    
+
+- ">>" Empurra os bits que representam o valor de n, uma determinada quantidade de casas para a direita.
+- "& 1" Isola o ultimo bit da sequência, e zera o restante.
+    
+    return 0;
+}
+
+*/
