@@ -84,3 +84,5 @@ int main()
 lista 1 - Exercício: 4
 
 */
+
+lista 1 - Exercício: 5
