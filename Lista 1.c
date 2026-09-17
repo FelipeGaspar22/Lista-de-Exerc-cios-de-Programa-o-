@@ -83,6 +83,23 @@ int main()
 
 lista 1 - Exercício: 4
 
+#include <stdio.h>
+
+int main()
+{
+    float salariofixo, calcfinal;
+    int comissao;
+    printf("Insira seu salário fixo: ");
+    scanf("%f", &salariofixo);
+
+    comissao = salariofixo * 0.15;
+    calcfinal = salariofixo + comissao;
+    
+    printf("Você vai receber de salário no final do mês: %.2f\n", calcfinal);
+
+    return 0;
+}
+
 */
 
 lista 1 - Exercício: 5
