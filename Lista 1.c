@@ -103,3 +103,35 @@ int main()
 */
 
 lista 1 - Exercício: 5
+
+/*
+    
+#include <stdio.h>
+
+int main()
+{
+    int n1, n2, n3, n4;
+    int soma, media, produtoria;
+    printf("Insira o valor de N1: ");
+    scanf("%d", &n1);
+    printf("Insira o valor de N2: ");
+    scanf("%d", &n2);
+    printf("Insira o valor de N3: ");
+    scanf("%d", &n3);
+    printf("Insira o valor de N4: ");
+    scanf("%d", &n4);
+
+    soma = n1 + n2 + n3 + n4;
+    media = (n1 + n2 + n3 + n4) / 4;
+    produtoria = n1 * n2 * n3 * n4;
+    
+    printf("Soma: %d\n", soma);
+    printf("Media: %d\n", media);
+    printf("Produtoría: %d\n", produtoria);
+    
+    return 0;
+}
+
+*/
+
+lista 1 - Exercício: 6
