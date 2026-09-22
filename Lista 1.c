@@ -180,5 +180,32 @@ int main()
 
 // =====================================================================================================================================
 
+/*
 
 Lista 1 - Exercício: 7
+
+#include <stdio.h>
+
+int main()
+{
+    int raio;
+    float pi = 3.14;
+    float volume;
+    
+    printf("Insira o raio da esfera: ");
+    scanf("%d", &raio);
+    
+    volume = (pi * 4 * (raio * raio * raio)) / 3;
+    
+    printf("O volume do raio de %d é | volume: %.2f| ", raio, volume);
+    
+    return 0;
+}
+
+*/
+
+// =====================================================================================================================================
+
+
+Lista 1 - Exercício: 8
+
