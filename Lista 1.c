@@ -206,6 +206,41 @@ int main()
 
 // =====================================================================================================================================
 
+/*
 
 Lista 1 - Exercício: 8
 
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int x1, x2, y1, y2;
+    int calc1, calc2;
+    int elev1, elev2;
+    int somafinal, distancia;
+    
+    printf("Insira o valor de X1: ");
+    scanf("%d", &x1);
+    printf("Insira o valor de Y1: ");
+    scanf("%d", &y1);
+    printf("Insira o valor de X2: ");
+    scanf("%d", &x2);
+    printf("Insira o valor de Y2: ");
+    scanf("%d", &y2);
+
+    calc1 = x1 - x2;
+    calc2 = y1 - y2;
+    elev1 = calc1 * calc1;
+    elev2 = calc2 * calc2;
+    somafinal = elev1 + elev2;
+    distancia = sqrt(somafinal);
+    
+    printf("R: %d", distancia);
+
+    return 0;
+}
+
+*/
+
+// =====================================================================================================================================
