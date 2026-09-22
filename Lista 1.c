@@ -150,4 +150,35 @@ int main()
 
 // =====================================================================================================================================
 
+/*
+
 lista 1 - Exercício: 6
+
+#include <stdio.h>
+
+int main()
+{
+    int idade;
+    int anos, meses, dias;
+    
+    printf("Insira sua idade em dias: ");
+    scanf("%d", &idade);
+    
+    anos = idade / 365;
+    idade = idade % 365;
+    
+    meses = idade / 30;
+    dias = idade % 30;
+    
+    printf("Voce esta vivo ha: | %d - Anos | %d - Meses | %d - Dias |\n", anos, meses, dias);
+
+    return 0;
+}
+
+
+*/
+
+// =====================================================================================================================================
+
+
+Lista 1 - Exercício: 7
