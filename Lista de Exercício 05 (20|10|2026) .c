@@ -63,3 +63,30 @@ int main()
 }
 
 */
+
+// =========================================================================================================================
+
+/*
+
+- Exercicio: 4
+  
+#include <stdio.h>
+
+int main()
+{
+    int number[10];
+    int maior = number[0];
+    int contador = 1;
+    
+    for(; contador <= 10; contador++){
+        if(){
+            
+        }
+        printf("\nInsira o ⁰%d numero: ", contador);
+        scanf("%d", &number[contador]);
+    }
+
+    return 0;
+}
+
+*/
