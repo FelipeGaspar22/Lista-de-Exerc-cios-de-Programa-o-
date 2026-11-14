@@ -1,5 +1,7 @@
-- Lista 2 
-  
+// Lista 2 - Exercício: 1
+
+/*
+
 #include <stdio.h>
 
 int main()
@@ -18,3 +20,4 @@ int main()
 
     return 0;
 }
+*/
