@@ -49,3 +49,30 @@ int main()
 
 // =====================================================================================================================================
 
+// Lista 2 - Exercício: 3
+
+/*
+
+#include <stdio.h>
+
+int main()
+{
+    float reais, cotacao, dolars;
+    
+    printf("Insira o valor em reais que será convertido: ");
+    scanf("%f", &reais);
+    printf("Insira o valor atual da cotação do dolar: ");
+    scanf("%f", &cotacao);
+    
+    dolars = reais / cotacao;
+    
+    printf("O valor da conversão de %.2f$ reais para dolares, resutou em: %.2f$ dolares", reais, dolars);
+
+    return 0;
+}
+
+*/
+
+// =====================================================================================================================================
+
+
